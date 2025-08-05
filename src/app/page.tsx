@@ -74,7 +74,7 @@ const timelineData = [
     title: "13 Oktober 2025",
     content: (
       <p className="text-neutral-700 dark:text-neutral-300">
-        ini kita ke HINDIA buat ngerjain tugas "padahal pengen spend timer together wokwoskskw" you looks so pretty in this photooooo still got in my top 5 photos of you, jangan liat aku btw aowkkwkw itu kacamatanya ilang kampret
+        ini kita ke HINDIA buat ngerjain tugas padahal pengen spend timer together wokwoskskw you looks so pretty in this photooooo still got in my top 5 photos of you, jangan liat aku btw aowkkwkw itu kacamatanya ilang kampret
       </p>
     ),
     image: ["/memories/13oktolive.jpg", "/memories/13oktalvin.jpg"]
@@ -146,7 +146,7 @@ const timelineData = [
     title: "15 December 2024",
     content: (
       <p className="text-neutral-700 dark:text-neutral-300">
-        This is the day maybe we would never forget it's really like im in love song with you. kita ngisi formulir bca dan kocaknya malah terlengah soalnya formnya ditutup dan aku kagum banget disini sama kamu karena kamu bilang "jangan panik vin, panik gabakal bawa kita kemana-mana" damn i still remember that words from u, you always made me mesmerized, the last photo was my literal goddess, she's my Alexandra💕
+        This is the day maybe we would never forget its really like im in love song with you. kita ngisi formulir bca dan kocaknya malah terlengah soalnya formnya ditutup dan aku kagum banget disini sama kamu karena kamu bilang jangan panik vin, panik gabakal bawa kita kemana-mana damn i still remember that words from u, you always made me mesmerized, the last photo was my literal goddess, shes my Alexandra💕
       </p>
     ),
     image: ["/memories/15dec.jpg", "/memories/15dec2.jpg","/memories/15dec3.jpg","/memories/15dec4.jpg","/memories/15dec5.jpg","/memories/15dec7.jpg","/memories/15dec9.jpg","/memories/15dec11.jpg"]
@@ -714,7 +714,6 @@ const timelineData = [
 ];
 
 export default function Home() {
-  const router = useRouter()
   const [isPlaying, setIsPlaying] = useState(false)
   const [isHovered, setIsHovered] = useState(false)
   const audioRef = useRef<HTMLAudioElement>(null)
