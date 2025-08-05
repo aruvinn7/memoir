@@ -200,7 +200,7 @@ const timelineData = [
     title: "23 December 2024",
     content: (
       <p className="text-neutral-700 dark:text-neutral-300">
-        hiksss terakhir ketemu sama kamuu sebelum kamu ke surabayaa, disini ada videonya yang lucu banget, aku mau masukin tapi besar banget mb nya yaallah, kamu bilang "liat aja nanti aku bakalan glowup" terus aku bilang "ditunggu olive glowup" terus kamu langsung bilang " OH berarti sekarang jele?" im dead bruh. i missss youuuu so muchhh hiksss T_T i miss when you being clingy
+        hiksss terakhir ketemu sama kamuu sebelum kamu ke surabayaa, disini ada videonya yang lucu banget, aku mau masukin tapi besar banget mb nya yaallah, kamu bilang liat aja nanti aku bakalan glowup terus aku bilang ditunggu olive glowup terus kamu langsung bilang OH berarti sekarang jele? im dead bruh. i missss youuuu so muchhh hiksss T_T i miss when you being clingy
       </p>
     ),
     image: ["/memories/23dec.jpg", "/memories/23dec1.jpg"]
