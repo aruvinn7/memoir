@@ -7,9 +7,7 @@ import ShinyText from "@/components/ui/shinytext";
 import { useState, useRef, useEffect } from "react";
 import { Play, Pause, Heart, Music } from "lucide-react";
 import { VideoText } from "@/components/magicui/video-text";
-import { useRouter } from "next/navigation";
 import PinGuard from "@/components/ui/PinGuard"
-
 const timelineData = [
   {
     title: "15 September 2024",
@@ -69,6 +67,15 @@ const timelineData = [
       </p>
     ),
     image: ["/memories/29sepm1.jpg", "/memories/29sepm2.jpg", "/memories/29sepm3.jpg", "/memories/29sepm4.jpg"]
+  },
+  {
+    title: "6 Oktober 2025",
+    content: (
+      <p className="text-neutral-700 dark:text-neutral-300">
+        KITA JALAN JALAN KE DIENG, mana masih temenan lagi ahahahhaa emang boleh seberduaan ini, disini kamu masih ada kue habis ulang tahun and then kamu ga bakal kemakan katanya yaudah kita nugas bisa bisanya sambil jalan-jalan, ini pas sore-sore banyak orang bawa anjing jalan-jalan, terus aku ada videonya masih
+      </p>
+    ),
+    image: ["/memories/6okt.jpg", "/memories/6okt1.jpg"]
   },
   {
     title: "13 Oktober 2025",

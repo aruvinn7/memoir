@@ -212,7 +212,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Memory Lane
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-md mx-auto">
-          Koleksi momen berharga dalam perjalanan hidup kita
+          This is what i mean bury everythings about us, go find love liv
         </p>
         <p className="text-neutral-600 dark:text-neutral-400 mt-2">Hope It Brings U Warms :D</p>
       </div>
