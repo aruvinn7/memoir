@@ -141,15 +141,6 @@ const timelineData = [
     image: ["/memories/14dec2.jpg"]
   },
   {
-    title: "14 December 2024",
-    content: (
-      <p className="text-neutral-700 dark:text-neutral-300">
-        HAHAHHAHAHAH ini kamu pusinnggg ngurusin RAB increase dan marah kalo ga dipegang tangannya, anjrlah aku kangen banget nulis ini semua
-      </p>
-    ),
-    image: ["/memories/14dec2.jpg"]
-  },
-  {
     title: "15 December 2024",
     content: (
       <p className="text-neutral-700 dark:text-neutral-300">
@@ -623,10 +614,10 @@ const timelineData = [
     title: "12 Mei 2025",
     content: (
       <p className="text-neutral-700 dark:text-neutral-300">
-        seronoknyaa gangguu tuuuu, omaigattt you look so different when you use necklace, you looks like my mommy WKWKWKWKWKW btw ini kita dimanaa hayooo yap di k3 mart. full dah gallery ku sama kamu tapi gapapa heheh suka
+        seronoknyaa gangguu tuuuu, omaigattt you look so different when you use necklace, you looks like my mommy WKWKWKWKWKW btw ini kita dimanaa hayooo yap di k3 mart. full dah gallery ku sama kamu tapi gapapa heheh suka. terus terus kita took a very very cute pictureeeeeee togetherr all time my favorite
       </p>
     ),
-    image: ["/memories/12may.jpg","/memories/12may1.jpg","/memories/12may2.jpg","/memories/12may3.jpg"]
+    image: ["/memories/12may.jpg","/memories/12may1.jpg","/memories/12may2.jpg","/memories/12may3.jpg", "/memories/12mei.jpg" ]
   },
   {
     title: "13 Mei 2025",
@@ -755,7 +746,7 @@ export default function Home() {
             speedInMs={5000} 
             className="text-4xl md:text-5xl font-bold break-words leading-tight w-full !from-pink-300 !via-pink-500 !to-pink-300 dark:!from-pink-300 dark:!via-pink-100 dark:!to-pink-300"
           >
-            HALOOOO THIS IS our MEMORIES
+            HALOOOOWWWW THIS IS our SWEET MEMORIES
           </ShinyText>
 
           {/* Super Cute Music Player */}
@@ -790,7 +781,7 @@ export default function Home() {
                   {isPlaying ? (
                     <Pause className="w-7 h-7 text-white ml-0 drop-shadow-lg" fill="white" />
                   ) : (
-                    <Play className="w-7 h-7 text-white ml-1 drop-shadow-lg" fill="white" />
+                    <Play className="w-7 h-7 text-white ml-1 drop-shadow-lg" fill="white" />  
                   )}
                 </div>
                 
@@ -862,9 +853,7 @@ export default function Home() {
         <VideoText src="/video/video.webm" fontSize={5}>
           L O V E
         </VideoText>
-      </div>
-
-      
+      </div>  
     </main>
   ); </PinGuard>)
 }

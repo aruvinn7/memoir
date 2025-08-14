@@ -212,7 +212,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Memory Lane
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-md mx-auto">
-          This is what i mean bury everythings about us, go find love liv
+          This is what i mean bury everything about us,
+          may your next love give you a genuine and warm love yaa livvvvv
         </p>
         <p className="text-neutral-600 dark:text-neutral-400 mt-2">Hope It Brings U Warms :D</p>
       </div>
